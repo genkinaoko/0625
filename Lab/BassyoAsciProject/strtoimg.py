@@ -20,4 +20,4 @@ textWidth, textHeight = draw.textsize(text,font=font)
 textTopLeft = (canvasSize[0]//6, canvasSize[1]//2-textHeight//2) # 前から1/6，上下中央に配置
 draw.text(textTopLeft, text, fill=textRGB, font=font)
 
-img.save("image.png")
+img.save("image2.png")
