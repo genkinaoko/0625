@@ -1,0 +1,7 @@
+The way to unlink git
+
+https://qiita.com/b4b4r07/items/cac4abd9ae66537e2833
+
+To connect git with vscode
+
+https://bgt-48.blogspot.com/2019/12/visual-studio-codegit.html
