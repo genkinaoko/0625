@@ -2,7 +2,7 @@ import cv2
 
 colorset = "MWN$@%#&B89EGA6mK5HRkbYT43V0JL7gpaseyxznocv?jIftr1li*=-~^`':;,. "
 
-imgpath = r"/Users/genkitakasaki1/Desktop/git/0625/picpic/seta5.jpg"
+imgpath = r"/Users/genkitakasaki1/Desktop/git/0625/picpic/guri.jpeg"
 img = cv2.imread(imgpath)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -13,5 +13,5 @@ for gray2 in gray:
     for dark in gray2:
         output += colorset[dark // 4] * 2
 
-with open(r"/Users/genkitakasaki1/Desktop/git/0625/Mac/result/del.txt", mode="w") as f:
+with open(r"/Users/genkitakasaki1/Desktop/git/0625/Mac/result/del2.txt", mode="w") as f:
     f.write(output)
