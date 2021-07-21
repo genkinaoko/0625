@@ -13,5 +13,5 @@ for gray2 in gray:
     for dark in gray2:
         output += colorset[dark // 4] * 2
 
-with open(r"C:\OneDriveNext\OneDrive - Nagasaki University\takapath\pic\output.txt", mode="w") as f:
+with open(r"C:\genkinaoko\git\0625\Win\result\out.txt", mode="w") as f:
     f.write(output)
